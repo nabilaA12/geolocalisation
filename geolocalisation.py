@@ -1,8 +1,8 @@
 
 from math import sqrt
 
-Pole_lat=176
-Pole_long=86
+Pole_lat = 172
+Pole_long = 86
 
 #fonction permettant la conversion des coordonées DMS en décimale
 def dms_en_dd(d,m,s): 
@@ -16,7 +16,7 @@ def distance(a1,b1,a2,b2):
     return sqrt((pow(a2-a1,2)+pow(b2-b1,2)))
 
 
-##### DMS PARIS ######
+##### DMS PARIS ####################
 
 # en latitude
 d=48
@@ -30,6 +30,6 @@ m1=20
 s1=56
 print ("La longitude de paris en décimale est: ",dms_en_dd(d1,m1,s1))
 
-#######
+#####################################
 
-print ("La distance entre paris et le pole nord est :" ,distance(Pole_lat,dms_en_dd(d,m,s),Pole_long,dms_en_dd(d1,m1,s1)))
+print ("La distance entre le pole nord et paris est :" ,distance(Pole_lat,dms_en_dd(d,m,s),Pole_long,dms_en_dd(d1,m1,s1)))
