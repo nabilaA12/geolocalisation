@@ -22,14 +22,14 @@ def distance(a1,b1,a2,b2):
 d=48
 m=51
 s=52
-print ("la latitude de paris en décimale est: ",dms_en_dd(d,m,s))
+print ("La latitude de paris en décimale est: ",dms_en_dd(d,m,s))
 
 #en longitude
 d1=2
 m1=20
 s1=56
-print ("la longitude de paris en décimale est: ",dms_en_dd(d1,m1,s1))
+print ("La longitude de paris en décimale est: ",dms_en_dd(d1,m1,s1))
 
 #######
 
-print ("la distance entre paris et le pole nord est :" ,distance(Pole_lat,dms_en_dd(d,m,s),Pole_long,dms_en_dd(d1,m1,s1)))
+print ("La distance entre paris et le pole nord est :" ,distance(Pole_lat,dms_en_dd(d,m,s),Pole_long,dms_en_dd(d1,m1,s1)))
