@@ -4,14 +4,14 @@ from math import sqrt
 Pole_lat=176
 Pole_long=86
 
-#fonction permet de convertir les coordonées DMS en décimale
+#fonction permettant la conversion des coordonées DMS en décimale
 def dms_en_dd(d,m,s): 
     sec=m*60+s
     dd=sec/3600+d
     return dd
 
 
- # fonction permet de calculer la distance entre deux points a(a1,b1) et b(a2,b2)
+ # fonction permettant le calcul de la distance entre deux points a(a1,b1) et b(a2,b2)
 def distance(a1,b1,a2,b2): 
     return sqrt((pow(a2-a1,2)+pow(b2-b1,2)))
 
