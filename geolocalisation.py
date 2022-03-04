@@ -27,7 +27,7 @@ m1=20
 s1=55
 print ("La longitude de paris en décimale est :",dms_en_dd(d1,m1,s1))
 
-## Longitude et latitude du pole nord 
+## Longitude et latitude du pole nord en décimale
 Pole_lat = 172
 Pole_long = 86
 
