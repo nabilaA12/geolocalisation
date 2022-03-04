@@ -13,7 +13,7 @@ def dms_en_dd(d,m,s):
 
  # fonction permettant le calcul de la distance entre deux points a(a1,b1) et b(a2,b2)
 def distance(b1,b2,a1,a2): 
-    return sqrt((pow(a2-a1,2)+pow(b2-b1,2)))
+    return sqrt((pow(b2-b1,2)+pow(a2-a1,2)))
 
 
 ##### DMS PARIS ####################
@@ -21,13 +21,13 @@ def distance(b1,b2,a1,a2):
 # en latitude
 d=48
 m=51
-s=52
+s=12
 print ("La latitude de paris en décimale est: ",dms_en_dd(d,m,s))
 
 #en longitude
 d1=2
 m1=20
-s1=56
+s1=55
 print ("La longitude de paris en décimale est: ",dms_en_dd(d1,m1,s1))
 
 #####################################
